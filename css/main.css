@@ -1,0 +1,61 @@
+/*Variables*/
+:root{
+
+    /*Colours*/
+    --starbucks-green: #D4E9E2;
+    --starbucks-black: #000000;
+
+    /*Fonts*/
+    --main-font: 'Open Sans', sans-serif;
+
+}
+
+/*General settings*/
+*{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    background-color: #cccccc;
+    padding: 1.5rem 0 0 2.5rem;
+}
+
+.header__img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav__list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__item{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.nav__item_sign_in{
+    text-decoration: none;
+    padding: .5rem 1.8rem .5rem 1.8rem;
+    border-radius: 100px;
+    border: 1px solid var(--starbucks-black);
+    
+}
+
+.hero{
+    margin: 0 5% 0 5%;
+    padding: 2rem;
+    background: var(--starbucks-green);
+}
+
+.hero__title{
+    width: 50%;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
