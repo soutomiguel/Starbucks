@@ -3,8 +3,9 @@
 :root{
 
   /* Colours */
-  --starbucks-green: #D4E9E2;
-  --starbucks-black: #000000;
+  --green-light: #D4E9E2;
+  --green-dark: #1E3932;
+  --white: #ffffff;
 
   /* Fonts */
   --main-font: 'Open Sans', sans-serif;
@@ -63,13 +64,13 @@ table {
 /* Header */
 .header{
     width: 100%;
-    background-color: #cccccc;   
+    background-color: var(--white);   
 }
 
 .nav{
   width: 90%;
   margin: 0 auto;
-  background-color: #c1c1c1;
+  background-color: var(--white);
 }
 
 .nav__img{
@@ -96,10 +97,10 @@ table {
     text-align: center;
 }
 
-/* -------- Mobile apps -------- */
+/* -------- Mobile apps section -------- */
 
-/* -------- People -------- */
+/* -------- People section -------- */
 
-/* -------- Sign in -------- */
+/* -------- Sign in section -------- */
 
-/* -------- Create account -------- */
+/* -------- Create account section -------- */
