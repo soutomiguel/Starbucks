@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "icon" href = "../media/starbucks-logo.png">
+    <link rel = "icon" href = "./media/starbucks-logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100&family=Staatliches&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href = "../css/main.css">
-    <title>Building Supportive & Sustainable Communities: Starbucks Coffee Company</title>
+    <title>Starbucks Coffee Company</title>
 </head>
 <body>
 
     <header class = "header">
-        <nav class = "nav">
+        <nav class = "header__nav">
             <div class = "nav__logo">
                 <a href = "../index.html"><img class = "nav__img" src = "../media/starbucks-logo.png" alt = "Logo Starbucks"></a>
             </div>
 
             <ul class = "nav__items">
-                <li class = "nav__item"><a href = "#">Menu</a></li>
-                <li class = "nav__item"><a href = "#">Rewards</a></li>
-                <li class = "nav__item"><a href = "#">Gift cards</a></li>
-                <li class = "nav__item_link"><a href = "#">Find a Store</a></li>
-                <li class = "nav__item_sign_in"><a href = "./html/sign-in.html">Sign in</a></li>
-                <li class = "nav__item_create_account"><a href = "./html/create-account.html">Join now</a></li>
+                <div class = "nav__items_left">
+                    <li><a class = "nav__item" href = "#">Menu</a></li>
+                    <li><a class = "nav__item" href = "#">Rewards</a></li>
+                    <li><a class = "nav__item" href = "#">Gift cards</a></li>
+                </div>
+
+                <div class = "nav__items_right">
+                    <li><a class = "nav__item nav__item--location-icon" href = "#">Find a Store</a></li>
+                    <li><a class = "nav__item nav__item--border nav__item--rounded" href = "./html/sign-in.html">Sign in</a></li>
+                    <li><a class = "nav__item nav__item--bg-black nav__item--rounded nav__item--text-white" href = "./html/create-account.html">Join now</a></li>
+                </div>
             </ul>
         </nav>
     </header>
@@ -93,75 +98,73 @@
 
     <hr>
 
-    <footer>
-        <div>
-            <ul>
-                <li><h3>About us</h3></li>
-                <li>Our Coffee</li>
-                <li>Stories and News</li>
-                <li>Starbucks Archive</li>
-                <li>Investor Relations</li>
-                <li>About us</li>
-                <li>Customer Service</li>
+    <footer class = "footer">
+        <div class = "footer__container">
+            <ul class = "footer__items">
+                <li class = "footer__item footer__item--title"><h3>About us</h3></li>
+                <li class = "footer__item"><a href = "#">Our Coffee</a></li>
+                <li class = "footer__item"><a href = "#">Stories and News</a></li>
+                <li class = "footer__item"><a href = "#">Starbucks Archive</a></li>
+                <li class = "footer__item"><a href = "#">Investor Relations</a></li>
+                <li class = "footer__item"><a href = "#">About us</a></li>
+                <li class = "footer__item"><a href = "#">Customer Service</a></li>
             </ul>
     
-            <ul>
-                <li><h3>Careers</h3></li>
-                <li>Culture and Values</li>
-                <li>Inclusion, Diversity, and Equity</li>
-                <li>College Achievement Plan</li>
-                <li>Alumni Community</li>
-                <li>U.S. Careers</li>
-                <li>International Careers</li>
+            <ul class = "footer__items">
+                <li class = "footer__item footer__item--title"><h3>Careers</h3></li>
+                <li class = "footer__item"><a href = "#">Culture and Values</a></li>
+                <li class = "footer__item"><a href = "#">Inclusion, Diversity, and Equity</a></li>
+                <li class = "footer__item"><a href = "#">College Achievement Plan</a></li>
+                <li class = "footer__item"><a href = "#">Alumni Community</a></li>
+                <li class = "footer__item"><a href = "#">U.S. Careers</a></li>
+                <li class = "footer__item"><a href = "#">International Careers</a></li>
             </ul>
     
-            <ul>
-                <li><h3>Social impact</h3></li>
-                <li>People</li>
-                <li>Planet</li>
-                <li>Environmental and Social Impact Reporting</li>
+            <ul class = "footer__items">
+                <li class = "footer__item footer__item--title"><h3>Social impact</h3></li>
+                <li class = "footer__item"><a href = "../html/people.html">People</a></li>
+                <li class = "footer__item"><a href = "#">Planet</a></li>
+                <li class = "footer__item"><a href = "#">Environmental and Social Impact Reporting</a></li>
             </ul>
     
-            <ul>
-                <li><h3>For business partners</h3></li>
-                <li>Landlord Support Center</li>
-                <li>Suppliers</li>
-                <li>Corporate Gift Card Sales</li>
-                <li>Office and Foodservice Coffee</li>
+            <ul class = "footer__items">
+                <li class = "footer__item footer__item--title"><h3>For business partners</h3></li>
+                <li class = "footer__item"><a href = "#">Landlord Support Center</a></li>
+                <li class = "footer__item"><a href = "#">Suppliers</a></li>
+                <li class = "footer__item"><a href = "#">Corporate Gift Card Sales</a></li>
+                <li class = "footer__item"><a href = "#">Office and Foodservice Coffee</a></li>
             </ul>
     
-            <ul>
-                <li><h3>Order and pickup</h3></li>
-                <li>Order on the App</li>
-                <li>Order on the Web</li>
-                <li>Delivery</li>
-                <li>Order and Pickup Options</li>
-                <li>Explore and Find Coffee for Home</li>
+            <ul class = "footer__items">
+                <li class = "footer__item footer__item--title"><h3>Order and pickup</h3></li>
+                <li class = "footer__item"><a href = "../html/mobile-apps.html">Order on the App</a></li>
+                <li class = "footer__item"><a href = "#">Order on the Web</a></li>
+                <li class = "footer__item"><a href = "#">Delivery</a></li>
+                <li class = "footer__item"><a href = "#">Order and Pickup Options</a></li>
+                <li class = "footer__item"><a href = "#">Explore and Find Coffee for Home</a></li>
             </ul>
         </div>
 
         <hr>
 
-        <div>
-            <div>
-                <img src = "#" alt = "Spotify">
-                <img src = "#" alt = "Facebook">
-                <img src = "#" alt = "Pinterest">
-                <img src = "#" alt = "Instagram">
-                <img src = "#" alt = "Youtube">
-                <img src = "#" alt = "Twitter">
-            </div>
+        <div class = "social-icons">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Spotify">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Facebook">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Pinterest">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Instagram">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Youtube">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Twitter">
         </div>
 
-        <div>
-            <a href = "#">Policy Privacy</a>
-            <a href = "#">Terms of Use</a>
-            <a href = "#">CA Supply Chain Act</a>
-            <a href = "#">Cookie Preferences</a>
+        <div class = "privacy">
+            <a href = "#" class = "privacy__link privacy__link--black">Policy Privacy</a> <span class = "privacy__pipe">&#124;</span> 
+            <a href = "#" class = "privacy__link privacy__link--black">Terms of Use</a> <span class = "privacy__pipe">&#124;</span>
+            <a href = "#" class = "privacy__link privacy__link--black">CA Supply Chain Act</a> <span class = "privacy__pipe">&#124;</span>
+            <a href = "#" class = "privacy__link privacy__link--black">Cookie Preferences</a>
         </div>
 
-        <div>
-            <p>
+        <div class = "copyright">
+            <p class = "copyright__text copyright__text--small">
                 <small>
                     © 2022 Starbucks Coffee Company. All rights reserved.
                 </small>
