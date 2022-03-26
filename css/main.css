@@ -6,9 +6,11 @@
   --green-light: #D4E9E2;
   --green-dark: #1E3932;
   --white: #ffffff;
+  --black: #000000;
 
   /* Fonts */
   --main-font: 'Open Sans', sans-serif;
+  --l-height: 35px;
 
 }
 
@@ -96,9 +98,18 @@ table {
     text-align: center;
 }
 
+
+/* Body sections */
 .prizes{
+  width: 90%;
   display: flex;
-  background: var(--green-dark);  
+  margin: 0 auto;
+  background: var(--green-dark);   
+}
+
+.prizes__info_container{
+  width: 50%;
+  padding: 2rem 0 2rem 0;
 }
 
 .prizes__title{
@@ -116,7 +127,318 @@ table {
   font-size: 1rem;
   font-weight: normal;
   text-align: center;
+  line-height: var(--l-height);
 }
+
+.prizes__link{
+  color: var(--white);
+  font-weight: 600;
+  font-family: var(--main-font);
+  padding: .5rem .8rem .5rem .8rem;
+  font-size: .9rem;
+  
+  border: .1rem solid var(--white);
+  border-radius: 100px;
+}
+
+.prizes__img_container{
+  width: 50%;
+  background: var(--white);
+}
+
+.iced_shaken{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  background: var(--green-dark); 
+}
+
+.iced_shaken_info__container{
+  width: 50%;
+  padding: 2rem 0 2rem 0;
+}
+
+.iced_shaken__title{
+  font-family: var(--main-font);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.iced_shaken__p{
+  margin: 2rem;
+  font-family: var(--main-font);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: var(--l-height);
+}
+
+.iced_shaken__link{
+  color: var(--white);
+  font-weight: 600;
+  font-family: var(--main-font);
+  padding: .5rem .8rem .5rem .8rem;
+  font-size: .9rem;
+  
+  border: .1rem solid var(--white);
+  border-radius: 100px;
+}
+
+.iced_shaken__img_container{
+  width: 50%;
+  background: var(--white);
+}
+
+.cheerfully{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  background: var(--green-dark); 
+}
+
+.cheerfully__info_container{
+  width: 50%;
+  padding: 2rem 0 2rem 0;
+}
+
+.cheerfully__title{
+  font-family: var(--main-font);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cheerfully__p{
+  margin: 2rem;
+  font-family: var(--main-font);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: var(--l-height);
+}
+
+.cheerfully__link{
+  color: var(--white);
+  font-weight: 600;
+  font-family: var(--main-font);
+  padding: .5rem .8rem .5rem .8rem;
+  font-size: .9rem;
+  
+  border: .1rem solid var(--white);
+  border-radius: 100px;
+}
+
+.cheerfully__img_container{
+  width: 50%;
+  background: var(--white);
+}
+
+.good_day{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  background: var(--green-light); 
+}
+
+.good_day__img_container{
+  width: 50%;
+  background: var(--white);
+}
+
+.good_day__info_container{
+  width: 50%;
+  padding: 2rem 0 2rem 0;
+}
+
+.good_day__title{
+  font-family: var(--main-font);
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.good_day_p{
+  margin: 2rem;
+  font-family: var(--main-font);
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: var(--l-height);
+}
+
+.good_day__link{
+  color: var(--black);
+  font-weight: 600;
+  font-family: var(--main-font);
+  padding: .5rem .8rem .5rem .8rem;
+  font-size: .9rem;
+  
+  border: .1rem solid var(--black);
+  border-radius: 100px;
+}
+
+.bonus{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  background: var(--green-light); 
+}
+
+.bonus__info_container{
+  width: 50%;
+  padding: 2rem 0 2rem 0;
+}
+
+.bonus__title{
+  font-family: var(--main-font);
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bonus_p{
+  margin: 2rem;
+  font-family: var(--main-font);
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: var(--l-height);
+}
+
+.bonus__bold{
+  font-weight: 700;
+}
+
+.bonus__link{
+  color: var(--black);
+  font-weight: 600;
+  font-family: var(--main-font);
+  padding: .5rem .8rem .5rem .8rem;
+  font-size: .9rem;
+  
+  border: .1rem solid var(--black);
+  border-radius: 100px;
+}
+
+.bonus__img_container{
+  width: 50%;
+  background: var(--white);
+}
+
+.celebrating{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  background: var(--green-light); 
+}
+
+.celebrating__info_container{
+  width: 50%;
+  padding: 2rem 0 2rem 0;
+}
+
+.celebrating__title{
+  font-family: var(--main-font);
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.celebrating_p{
+  margin: 2rem;
+  font-family: var(--main-font);
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: var(--l-height);
+}
+
+.celebrating__link{
+  color: var(--black);
+  font-weight: 600;
+  font-family: var(--main-font);
+  padding: .5rem .8rem .5rem .8rem;
+  font-size: .9rem;
+  
+  border: .1rem solid var(--black);
+  border-radius: 100px;
+}
+
+.celebrating__img_container{
+  width: 50%;
+  background: var(--white);
+}
+
+.new_starbucks{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  background: var(--green-light);
+}
+
+.new_starbucks__info_container{
+  width: 50%;
+  padding: 2rem 0 2rem 0;
+}
+
+.new_starbucks__title{
+  font-family: var(--main-font);
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.new_starbucks_p{
+  margin: 2rem;
+  font-family: var(--main-font);
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: var(--l-height);
+}
+
+.new_starbucks__link{
+  color: var(--black);
+  font-weight: 600;
+  font-family: var(--main-font);
+  padding: .5rem .8rem .5rem .8rem;
+  font-size: .9rem;
+  
+  border: .1rem solid var(--black);
+  border-radius: 100px;
+}
+
+
+/* terms */
+.terms{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  background: var(--white); 
+}
+
+.time{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  background: var(--white);
+}
+
+/* footer */
+
 
 /* -------- Mobile apps section -------- */
 
