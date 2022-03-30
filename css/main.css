@@ -74,35 +74,20 @@ hr{
 }
 
 
-/* Grid template */
-.container{
-  display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-
-    grid-template-areas: 
-      "header header header header header header"
-      "main_banner main_banner main_banner main_banner  main_banner main_banner"
-    ;
-}
 
 /* -------- Index -------- */
 
 /* Header */
 .header{
-  display: flex;
-  background-color: green; 
-
-  grid-area: header;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 
 /* Nav */
 .nav__logo{
-  display: inline-block;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
 }
 
 .nav__img{
@@ -110,19 +95,104 @@ hr{
     height: 50px;
 }
 
-.nav__items{
-  background-color: bisque;
+.container{
+  width: 75%;
+  margin: 0 auto;
 }
 
 /* Main banner */
 .main_banner{
-    background: var(--green-light);
+  background: var(--green-light);
 
-    grid-area: main_banner;
+    display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-areas: 
+      "main_banner__title main_banner__title main_banner__title main_banner__title main_banner__title main_banner__title main_banner__title main_banner__title main_banner__title main_banner__title main_banner__title main_banner__title"
+      ;
+}
+
+.main_banner__title{
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--green-light);
+
+  grid-area: main_banner__title;
 }
 
 .main_banner__title{
     font-family: var(--main-font);
+}
+
+/* Cards */
+.card-iced-shaken{
+  display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "card-iced-shaken__info card-iced-shaken__info card-iced-shaken__info card-iced-shaken__info card-iced-shaken__info card-iced-shaken__info card-iced-shaken__img card-iced-shaken__img card-iced-shaken__img card-iced-shaken__img card-iced-shaken__img card-iced-shaken__img"
+    ;
+
+    
+}
+
+.card-iced-shaken__info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #808080;
+
+  grid-area: card-iced-shaken__info;
+}
+
+.card-iced-shaken__img{
+  grid-area: card-iced-shaken__img;
+}
+
+/* Footer */
+.footer{
+  display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+  grid-template-areas: 
+    "footer footer footer footer footer footer footer footer footer footer footer footer"
+    "social-icons social-icons social-icons social-icons social-icons social-icons social-icons social-icons social-icons social-icons social-icons social-icons"
+    "privacy privacy privacy privacy privacy privacy privacy privacy privacy privacy privacy privacy"
+    "copyright copyright copyright copyright copyright copyright copyright copyright copyright copyright copyright copyright"
+  ;
+}
+
+.footer__nav{
+  display: flex;
+
+  grid-column-gap: 5rem;
+  background-color: red;
+
+  grid-area: footer;
+}
+
+.social-icons{
+  display: flex;
+  background-color: yellowgreen;
+
+  grid-area: social-icons;
+}
+
+.privacy{
+  background-color: peachpuff;
+
+  grid-area: privacy;
+}
+
+.copyright{
+  background-color: peru;
+
+  grid-area: copyright;
 }
 
 /* -------- Mobile apps section -------- */
