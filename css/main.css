@@ -170,8 +170,12 @@ section{
 .cheerfully__img,
 .bonus__img,
 .celebrating__img{
-  width: 50%; 
+  width: 50%;
   background: var(--white);
+}
+
+.image_info{
+  width: 100%;
 }
 
 .card-iced-shaken__info,
@@ -180,6 +184,9 @@ section{
 .bonus__info,
 .celebrating__info,
 .learn__info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 3rem 0 3rem 0;
   width: 50%;
   background: var(--green-dark);
@@ -196,7 +203,7 @@ section{
 .learn__title{
   padding: 1rem 0 1rem 0;
   font-family: var(--main-font);
-  font-size: var(--font-title);
+  font-size: 3rem;
   font-weight: var(--extra-bold);
   color: var(--white);
   text-align: center;
@@ -230,6 +237,19 @@ section{
 
 .footer__items{
   padding: 0rem 3rem 0rem 0rem;
+}
+
+.footer__item{
+  font-family: var(--main-font);
+  font-size: var(--font-p);
+  font-weight: var(--bold);
+}
+
+.privacy__link,
+.social_icons__icon{
+  font-family: var(--main-font);
+  font-size: var(--font-p);
+  font-weight: var(--bold);
 }
 
 
