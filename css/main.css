@@ -77,116 +77,71 @@ section{
 }
 
 /* Grids */
-.header-grid{
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
-.footer-nav-grid{
-  width: 90%;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
 .grid{
-  width: 90%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  
 }
 
 /* -------- Index -------- */
 
 /* Header */
-
-/* Nav */
-.nav__logo{
+.header{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  grid-column: 1/2;
+  flex-direction: row;
+  background-color: red;
+  grid-column: 1/-1;
 }
 
+/* Nav */
 .nav__img{
     width: 50px;
     height: 50px;
 }
 
-.header__nav{
-  grid-column: 2/-1;
-  background: var(--white);
-}
-
-/* Main banner */
-.main_banner{
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  background: var(--green-light);
-}
-
-.main_banner__title{
-  width: 40%;
-}
 
 /* Cards */
+.cards{
+  background: red;
+  grid-column: 1/-1;
+}
+
 .card-iced-shaken{
   display: flex;
-  background: seashell;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  background: wheat;
 }
 
 .card-iced-shaken__img{
-  background: var(--white);
-  grid-column: 2/7;
+  width: 50%;
 }
 
 .card-iced-shaken__info{
-  background: silver;
-  grid-column: 7/-1;
+  width: 50%;
 }
 
-.card-cheerfully-chill{
-  display: flex;
-  background: seashell;
-}
-
-.card-cheerfully-chill__info{
-  background: sandybrown;
-  grid-column: 2/7;
-}
-
-.card-cheerfully-chill__img{
-  background: var(--white);
-  grid-column: 7/-1;
-}
-
-/* Footer */
 .footer{
-  background-color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  background: fuchsia;
+  grid-column: 1/-1;
 }
 
 .footer__nav{
   display: flex;
-  grid-column-gap: 4rem;
-  grid-column: 2/-1;
-  background: #D4E9E2;
+  flex-direction: row;
 }
 
 .footer__items{
-  background: #1E3932;
+  padding: 0rem 3rem 0rem 0rem;
 }
 
-.social-icons{
-  background: salmon;
+.social_icons{
+  background: sienna;
 }
 
-.privacy{
-  background: seagreen;
-}
-
-.copyright{
-  background: saddlebrown;
-}
 
 /* -------- Mobile apps section -------- */
 
