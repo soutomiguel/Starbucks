@@ -387,5 +387,39 @@ section{
 /* -------- People section -------- */
 
 /* -------- Sign in section -------- */
+.sign_in_form__title{
+  padding: 1rem 0 1rem 0;
+  font-family: var(--main-font);
+  font-size: var(--font-title);
+  font-weight: var(--bold);
+  text-align: center;
+}
+
+
+.sign_in{
+  background-color: red;
+  grid-column: 1/-1;
+}
+
+.sign_in_form{
+  margin: 0 auto;
+  width: 40%;
+  background: yellow;
+}
+
+.sign_in_inputs{
+  display: flex;
+  flex-direction: column;
+  background: yellowgreen;
+  margin: 1rem 0 1rem 0;
+}
+
+.sign_in_box{
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 0 0 0;
+  width: 40%;
+  background: yellow;
+}
 
 /* -------- Create account section -------- */
