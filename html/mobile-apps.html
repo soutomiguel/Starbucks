@@ -36,7 +36,13 @@
             </nav>
         </header>
 
-        <main>
+        <div>
+            <p>Links para las dos paginas con CSS grid</p>
+            <a href = "./index.html">Index</a>
+            <a href = "./html/mobile-apps.html">Mobile apps</a>
+        </div>
+
+        <main class = "app">
             <section class = "mobile_rewarding">
                 <h1 class = "mobile_rewarding__title">The Starbucks® app. So rewarding</h1>
                 <p class = "mobile_rewarding__text">
@@ -48,15 +54,15 @@
                 </p>
             </section>
     
-            <section>
-                <div>
-                    <img src = "" alt = "iPhone app image">
+            <section class = "platforms">
+                <div class = "platform_apple">
+                    <img class = "platform_apple__img" src = "../media/apple.webp" alt = "iPhone app image">
                     <h3>Starbucks® app for iPhone®</h3>
                     <a href = "#">Download at the App Store</a>
                 </div>
     
-                <div>
-                    <img src = "" alt = "Android app image">
+                <div class = "platform_google">
+                    <img class = "platform_google__img"  src = "../media/google.webp" alt = "Android app image">
                     <h3>Starbucks® app for Android™</h3>
                     <a href = "#">Download on Google Play</a>
                 </div>
@@ -65,8 +71,9 @@
     
         <hr>
     
+
         <footer class = "footer">
-            <div class = "footer__container">
+            <nav class = "footer__nav">
                 <ul class = "footer__items">
                     <li class = "footer__item footer__item--title"><h3>About us</h3></li>
                     <li class = "footer__item"><a href = "#">Our Coffee</a></li>
@@ -89,7 +96,7 @@
         
                 <ul class = "footer__items">
                     <li class = "footer__item footer__item--title"><h3>Social impact</h3></li>
-                    <li class = "footer__item"><a href = "../html/people.html">People</a></li>
+                    <li class = "footer__item"><a href = "./html/people.html">People</a></li>
                     <li class = "footer__item"><a href = "#">Planet</a></li>
                     <li class = "footer__item"><a href = "#">Environmental and Social Impact Reporting</a></li>
                 </ul>
@@ -104,40 +111,40 @@
         
                 <ul class = "footer__items">
                     <li class = "footer__item footer__item--title"><h3>Order and pickup</h3></li>
-                    <li class = "footer__item"><a href = "../html/mobile-apps.html">Order on the App</a></li>
+                    <li class = "footer__item"><a href = "./html/mobile-apps.html">Order on the App</a></li>
                     <li class = "footer__item"><a href = "#">Order on the Web</a></li>
                     <li class = "footer__item"><a href = "#">Delivery</a></li>
                     <li class = "footer__item"><a href = "#">Order and Pickup Options</a></li>
                     <li class = "footer__item"><a href = "#">Explore and Find Coffee for Home</a></li>
                 </ul>
-            </div>
-    
-            <hr>
-    
-            <div class = "social-icons">
-                <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Spotify">
-                <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Facebook">
-                <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Pinterest">
-                <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Instagram">
-                <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Youtube">
-                <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Twitter">
-            </div>
-    
-            <div class = "privacy">
-                <a href = "#" class = "privacy__link privacy__link--black">Policy Privacy</a> <span class = "privacy__pipe">&#124;</span> 
-                <a href = "#" class = "privacy__link privacy__link--black">Terms of Use</a> <span class = "privacy__pipe">&#124;</span>
-                <a href = "#" class = "privacy__link privacy__link--black">CA Supply Chain Act</a> <span class = "privacy__pipe">&#124;</span>
-                <a href = "#" class = "privacy__link privacy__link--black">Cookie Preferences</a>
-            </div>
-    
-            <div class = "copyright">
-                <p class = "copyright__text copyright__text--small">
-                    <small>
-                        © 2022 Starbucks Coffee Company. All rights reserved.
-                    </small>
-                </p>
-            </div>
-        </footer>
+            </nav>
+
+        <hr>
+
+        <div class = "social_icons">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Spotify">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Facebook">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Pinterest">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Instagram">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Youtube">
+            <a href = "#" class = "social_icons__icon"></a><img src = "" alt = "Twitter">
+        </div>
+
+        <div class = "privacy">
+            <a href = "#" class = "privacy__link privacy__link--black">Policy Privacy</a> <span class = "privacy__pipe">&#124;</span> 
+            <a href = "#" class = "privacy__link privacy__link--black">Terms of Use</a> <span class = "privacy__pipe">&#124;</span>
+            <a href = "#" class = "privacy__link privacy__link--black">CA Supply Chain Act</a> <span class = "privacy__pipe">&#124;</span>
+            <a href = "#" class = "privacy__link privacy__link--black">Cookie Preferences</a>
+        </div>
+
+        <div class = "copyright">
+            <p class = "copyright__text copyright__text--small">
+                <small>
+                    © 2022 Starbucks Coffee Company. All rights reserved.
+                </small>
+            </p>
+        </div>
+    </footer>
     </div>
 
 </body>
