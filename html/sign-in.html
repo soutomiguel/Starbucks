@@ -21,6 +21,16 @@
                 </div>
             </nav>
         </header>
+
+
+        <div>
+            <p>Links para las dos paginas con CSS grid</p>
+            <a href = "../index.html">Index</a>
+            <a href = "../html/sign-in.html">Sign in</a>
+            <a href = "../html/create-account.html">create account</a>
+            <a href = "../html/mobile-apps.html">Mobile apps</a>
+            <a href = "../html/people.html">People</a>
+        </div>
     
         <main class = "sign_in">
             <h1 class = "sign_in_form__title">Sign in or create an account</h1>
@@ -28,40 +38,48 @@
             <form class = "sign_in_form" action = "">
                 <p>* indicates required field</p>
                 <div class = "sign_in_inputs">
-                    <input type = "text" placeholder = "* User name or email address">
-                    <input type = "text" placeholder = "* Password">
+                    <input class = "sign_in_input_user" type = "text" placeholder = "* User name or email address">
+                    <input class = "sign_in_input_password" type = "text" placeholder = "* Password">
                 </div>
     
-                <div>
+                <div class = "sign_in__check">
                     <input type="checkbox">
                     <span>Keep me signed in. <a href = "#">Details</a></span>
                 </div>
     
-                <a href = "#">Forgot your username?</a>
-                <a href = "#">Forgot your password?</a>
+                <div class = "sign_in__forgot">
+                    <a href = "#">Forgot your username?</a>
+                    <a href = "#">Forgot your password?</a>
+                </div>
+
+                <div class = "sign_in__submit">
+                    <input class = "sign_in__btn" type = "submit">
+                </div>
             </form>
     
             <section class = "sign_in_box">
                 <h2 class = "sign_in_box__title">JOIN STARBUCKS® REWARDS</h2>
                 <p class = "sign_in_box__text">Join Starbucks® Rewards to earn free food and drinks, get free refills, pay and order with your phone, and more.</p>
-                <a href = "create-account.html">Join now</a>
+                <a class = "sign_in_box__btn" href = "create-account.html">Join now</a>
             </section>
         </main>
     
         <hr>
     
         <footer>
-            <div>
-                <a href = "#">Find a Store</a>
-            </div>
-    
-            <div>
-                <ul>
-                    <li>Web Accessibility</li>
-                    <li>Privacy Policy</li>
-                    <li>Terms of Use</li>
-                    <li>Cookie Preferences</li>
-                </ul>
+            <div class = "footer_store">
+                <div class = "footer_store__links">
+                    <a class = "footer_store__link" href = "#">Find a Store</a>
+                </div>
+        
+                <div>
+                    <ul>
+                        <li>Web Accessibility</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Use</li>
+                        <li>Cookie Preferences</li>
+                    </ul>
+                </div>
             </div>
     
             <div>

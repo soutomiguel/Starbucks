@@ -381,10 +381,75 @@ section{
   .platform_google{
   width: 100%;
   background-color: var(--gray);
-}
+  }
 }
 
 /* -------- People section -------- */
+.people_fist,
+.see_next{
+  text-align: center;
+}
+
+.people_fist__title,
+.see_next__title{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0;
+  font-family: var(--main-font);
+  font-size: var(--font-title);
+  font-weight: var(--bold);
+  color: var(--green-dark);
+}
+
+.inclusion_diversity{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  background: wheat;
+}
+
+.inclusion_diversity__img{
+  width: 50%;
+  background: var(--white);
+}
+
+.inclusion_diversity__img_info{
+  width: 100%;
+}
+
+.people_fist__info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0 3rem 0;
+  width: 50%;
+  background: var(--green-dark);
+  font-family: var(--main-font);
+  color: var(--white);
+  text-align: center;
+}
+
+/* Media querie people  section */
+@media screen and (max-width: 768px){
+  .inclusion_diversity{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    background: wheat;
+  }
+
+  .inclusion_diversity__img{
+    width: 100%;
+    background: var(--white);
+  }
+
+  .people_fist__info{
+    width: 100%;
+  }
+}
 
 /* -------- Sign in section -------- */
 .sign_in_form__title{
@@ -395,31 +460,168 @@ section{
   text-align: center;
 }
 
-
 .sign_in{
-  background-color: red;
   grid-column: 1/-1;
+}
+
+.sign_in_form__title{
+  padding: 3rem 0 3rem 0;
 }
 
 .sign_in_form{
   margin: 0 auto;
   width: 40%;
-  background: yellow;
+  background: var(--gray);
+  padding: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .sign_in_inputs{
   display: flex;
   flex-direction: column;
-  background: yellowgreen;
-  margin: 1rem 0 1rem 0;
+}
+
+.sign_in_input_user,
+.sign_in_input_password{
+  height: 30px;
+  margin: 0 0 1rem 0;
+  border-radius: 5px;
+  border: 1px solid var(--black);
 }
 
 .sign_in_box{
   text-align: center;
   margin: 0 auto;
-  padding: 2rem 0 0 0;
+  padding: 3rem 1rem 3rem 1rem;
   width: 40%;
-  background: yellow;
+  background: var(--green-light);
+  border-radius: 5px;
+}
+
+.sign_in_box__title{
+  font-weight: var(--extra-bold);
+  color: var(--green-dark);
+  font-size: var(--font-p-title);
+  font-family: var(--main-font);
+}
+
+.sign_in_box__text{
+  padding: 2rem 0 2rem 0;
+}
+
+.sign_in__submit{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.sign_in_box__btn{
+  background: var(--green-dark);
+  color: var(--white);
+  border-radius: 100px;
+  border: none;
+}
+
+.sign_in__forgot{
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign_in__btn{
+  background: var(--green-dark);
+  color: var(--white);
+  padding: .9rem 2rem .9rem 2rem;
+  border-radius: 100px;
+  border: none;
+}
+
+.footer_store{
+  display: flex;
+  flex-direction: row;
+}
+
+/* Media querie Sign in section */
+@media screen and (max-width: 768px){
+  .sign_in_form{
+    width: 90%;
+    margin: 0 auto;
+    background: var(--white);
+  }  
+
+  .footer_store{
+    flex-direction: column;
+  }
+
+  .sign_in_box{
+    width: 90%;
+  }
 }
 
 /* -------- Create account section -------- */
+.create_account{
+  grid-column: 1/-1;
+}
+
+.crea_account__info{
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0;
+  font-family: var(--main-font);
+  text-align: center;
+}
+
+.create_account_form__title{
+  padding: 1rem 0 1rem 0;
+  font-family: var(--main-font);
+  font-size: var(--font-title);
+  text-align: center;
+}
+
+.create_account_form{
+  margin: 0 auto;
+  width: 40%;
+  background: var(--gray);
+  padding: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.create_account__personal_information,
+.create_account__security,
+.create_account__gift_card{
+  display: flex;
+  flex-direction: column;
+}
+
+.collect_stars,
+.tems_of_use{
+  padding: 1rem 0 1rem 0;
+}
+
+.create_account__btn_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.create_account__btn{
+  background: var(--green-dark);
+  color: var(--white);
+  margin-top: 3rem;
+  padding: .9rem 2rem .9rem 2rem;
+  border-radius: 100px;
+  border: none;
+}
+
+/* Media querie create account section */
+@media screen and (max-width: 768px){
+  .crea_account__info{
+    width: 90%;
+  }
+
+  .create_account_form{
+    margin: 0 auto;
+    width: 90%;
+    background: var(--white);
+  }
+}
