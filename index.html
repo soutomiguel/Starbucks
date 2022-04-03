@@ -41,14 +41,14 @@
                       </nav>
                 </header>
 
-        <section class = "container d-flex justify-content-center bg-light text-center mt-1">
-            <p class = "fs-6 w-50 p-4">
+        <section class = "container-fluid container-md d-flex justify-content-center bg-light text-center mt-1">
+            <p class = "fs-6 w-75 p-4">
                 Facial coverings are now optional for our customers and our partners (employees) serving you in our stores, following guidance from the CDC. <span><a href = "#">Learn more.</a></span>
             </p>
         </section>
 
         <main>
-            <section class = "container mt-4 bg-light">
+            <section class = "container-fluid container-md mt-4 bg-light">
                 <div class = "row">
                     <div class = "col-sm-12 col-md-6">
                         <img src = "./media/faves.webp" class = "img-fluid" alt = "starbucks rewards">
@@ -66,7 +66,7 @@
                 </div>
             </section>
 
-            <section class = "container mt-4 bg-light">
+            <section class = "container-fluid container-md mt-4 bg-light">
                 <div class = "row">
                     <div class = "col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center mt-3 mb-3">
                         <div>
@@ -88,7 +88,7 @@
                 </div>
             </section>
 
-            <section class = "container">
+            <section class = "container-fluid container-md">
                 <div class = "row">
                     <div class = "col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center text-center mt-3 mb-3">
                         <div>
@@ -110,32 +110,72 @@
                         </div>
                     </div>
 
-                    <div class = "col-sm-12 col-md-6">
+                    <div class = "col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center text-center mt-3 mb-3">
                         <div>
                             <img src = "./media/cheerfully-chill.webp" class="img-fluid" alt="...">
                         </div>
         
                         <div class = "bg-light">
-                            <h1 class = "fs-3">Cheerfully chill</h1>
-                            <p class = "">Spring sips await with our nondairy Pink Drink, complete with real strawberry pieces and coconutmilk.</p>
-                            <button class = "w-25 btn btn-primary" type="button">Order now</button>
+                            <div>
+                                <h1 class = "fs-3 mt-5">Cheerfully chill</h1>
+                            </div>
+
+                            <div>
+                                <p class = "mt-3 mx-5">Spring sips await with our nondairy Pink Drink, complete with real strawberry pieces and coconutmilk.</p>
+                            </div>
+
+                            <div>
+                                <button class = "btn btn-primary mt-4 mb-5" type="button">Order now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class = "container d-flex mt-4 bg-light">
-                <div class = "w-50 d-flex flex-column justify-content-center align-items-center">
-                    <h1 class = "fs-3 text-center mb-4 mt-4">A good day, on its way</h1>
-                    <p class = "w-100 mb-4 text-center">Get your favorites delivered on Uber Eats.**</p>
-                    <button class = "w-25 btn btn-primary" type="button">Order now</button>
-                </div>
 
-                <div class = "w-50">
-                    <img src = "./media/uber-eats.webp" class="img-fluid" alt="...">
+            <section class = "container-fluid container-md mt-4 bg-light">
+                <div class = "row">
+                    <div class = "col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center mt-3 mb-3">
+                        <div>
+                            <h1 class = "fs-3 mt-3">A good day, on its way</h1>
+                        </div>
+
+                        <div class = "mt-3 mx-5">
+                            <p>Get your favorites delivered on Uber Eats.**</p>
+                        </div>
+
+                        <div>
+                            <button class="btn btn-primary mt-3 mb-4" type="button">Order now</button>
+                        </div>
+                    </div>
+
+                    <div class = "col-sm-12 col-md-6">
+                        <img src = "./media/uber-eats.webp" class = "img-fluid" alt = "starbucks rewards">
+                    </div>
                 </div>
             </section>
 
+            <section class = "container-fluid container-md mt-4 bg-light">
+                <div class = "row">
+                    <div class = "col-sm-12 col-md-6">
+                        <img src = "./media/earn.webp" class = "img-fluid" alt = "starbucks rewards">
+                    </div>
+
+                    <div class = "col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center mt-3 mb-3">
+                        <div>
+                            <h1 class = "fs-3 mt-3">Earning 4,500 Bonus Stars is Super Starifying</h1>
+                        </div>
+
+                        <div class = "mt-3 mx-5 text-center">
+                            <p>Earn more Stars and even more Rewards with a <span class = "fw-bold">$0 intro annual fee for your first year</span> with the Starbucks® Rewards Visa® Card. Plus your Stars won’t expire – an exclusive Starbucks benefit for cardmembers. Now that’s Super Starifying.</p>
+                        </div>
+
+                        <div>
+                            <button class="btn btn-primary mt-3 mb-4" type="button">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
     <section class = "text-center">
         <p class = "m-5">
@@ -201,7 +241,7 @@
 
             <hr>
 
-            <div class = "container mt-3 mb-3">
+            <div class = "container-fluid container-md mt-3 mb-3">
                 <a href = "#" class = "text-decoration-none text-black">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-spotify" viewBox="0 0 16 16">
                     <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"/>
@@ -234,14 +274,14 @@
                 </a>
             </div>
 
-            <div class = "container mt-3 mb-3 text-secondary">
-                <a href = "#" class = "text-decoration-none text-black">Policy Privacy</a> <span class = "privacy__pipe">&#124;</span> 
-                <a href = "#" class = "text-decoration-none text-black">Terms of Use</a> <span class = "privacy__pipe">&#124;</span>
-                <a href = "#" class = "text-decoration-none text-black">CA Supply Chain Act</a> <span class = "privacy__pipe">&#124;</span>
+            <div class = "container-fluid container-md d-flex flex-sm-column flex-md-row mt-3 mb-3 text-secondary">
+                <a href = "#" class = "text-decoration-none text-black">Policy Privacy</a> <span class = "privacy__pipe"></span> 
+                <a href = "#" class = "text-decoration-none text-black">Terms of Use</a> <span class = "privacy__pipe"></span>
+                <a href = "#" class = "text-decoration-none text-black">CA Supply Chain Act</a> <span class = "privacy__pipe"></span>
                 <a href = "#" class = "text-decoration-none text-black">Cookie Preferences</a>
             </div>
 
-            <div class = "container">
+            <div class = "container-fluid container-md">
                 <p class = "">
                     <small>
                         © 2022 Starbucks Coffee Company. All rights reserved.
