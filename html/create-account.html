@@ -16,7 +16,7 @@
     <header class="shadow-sm py-3">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="#"
+                <a class="navbar-brand" href="../index.html"
                 ><img
                         class="img-fluid"
                         width="50"
@@ -30,96 +30,99 @@
         </nav>
     </header>
 
-            <div>
-                <p>Links para las dos paginas con CSS grid</p>
-                <a href = "../index.html">Index</a>
-                <a href = "../html/sign-in.html">Sign in</a>
-                <a href = "../html/create-account.html">create account</a>
-                <a href = "../html/mobile-apps.html">Mobile apps</a>
-                <a href = "../html/people.html">People</a>
-            </div>
-    
-        <main class = "create_account">
-        
-            <div class = "crea_account__info">
-                <h1 class = "create_account_form__title">Create an account</h1>
-                <h2 class = "create_account_rewards__title">STARBUCKS® REWARDS</h2>
-                <p class = "create_account_rewards__title">Join Starbucks Rewards to earn Stars for free food and drinks, any way you pay. Get access to mobile ordering, a birthday Reward, and moremore.</p>
+        <main>
+            <div class = "container">
+                <div class="row justify-content-center">
+                    <div class="col-md-5 col-sm-12">
+                        <h1 class = "text-center mt-5 fs-3 fw-bolder">Create an account</h1>
+                        <div class="mt-4">
+                            <h2 class = "text-center fs-6 fw-bolder text-uppercase">Starbucks® rewards</h2>
+                            <p class = "text-center fs-6">Join Starbucks Rewards to earn Stars for free food and drinks, any way you pay. Get access to mobile ordering, a birthday Reward, and <a href="#">more</a>.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         
-        <form class = "create_account_form" action = "">
-            <span>* indicates required field</span>
-    
-            <div class = "create_account__personal_information">
-                <p>Personal Information</p>
-                <input type = "text" placeholder = "* First name" required>
-                <input type = "text" placeholder = "* Last name" required>
-            </div>
-    
-            <div class = "create_account__security">
-            <p>Account Security</p>
-                <input type = "email" placeholder = "* Email address" required>
-                <span>This will be your username</span>
-                <input type = "password" placeholder = "* Password" required>
-                <span>Create a password 8 to 25 characters long that includes at least 1 uppercase and 1 lowercase letter, 1 number and 1 special character like an exclamation point or asterisk.</span>
-            </div>
-        
-            <div class = "create_account__gift_card">
-                <p>Already have a Starbucks gift card?</p>
-                <span>Add your gift card to earn Stars when you pay and order ahead.</span>
-                <input type = "number" placeholder = "Card numbers (16 Digits)" required>
-                <span>No spaces or dashes</span>
-                <input type = "number" placeholder = "Security code" required>  
-                <span>Scratch to reveal 8-digit code</span>
-            </div>
-    
-            <p class = "collect_stars">COLLECT MORE STARS & EARN REWARDS</p>
-            <span>Email is a great way to know about offers and what’s new from Starbucks.</span>
-            <div>
-                <input type = "checkbox">
-                <span>Yes, I’d like email from Starbucks</span>
-            </div>
-    
-            <div>
-                <span>Know about initiatives, announcements and product offers.</span>
-            </div>
-    
-            <p class = "tems_of_use">TERMS OF USE</p>
-            <div>
-                <input type = "checkbox">
-                <span>I agree to the Starbucks® Rewards Terms and the Starbucks Card Terms</span>
-            </div>
-    
-            <div class = "create_account__btn_container">
-                <input class = "create_account__btn" type = "button" value = "Create Account">
+        <form class = "container" action = "">
+            <div class="row justify-content-center">
+                <div class="col-md-5 col-sm-12 shadow w-sm-100 p-4 rounded shadow-sm">
+                    <span class="">* indicates required field</span>
+
+                    <div class = "">
+                        <p>Personal Information</p>
+                        <div class="d-flex flex-column pt-3 pb-5">
+                            <input class="py-2 px-4 border rounded mb-3" type = "text" placeholder = "* First name" required>
+                            <input class="py-2 px-4 border rounded mb-3" type = "text" placeholder = "* Last name" required>
+                        </div>
+                    </div>
+
+                    <div class = "">
+                        <p>Account Security</p>
+                        <div class="d-flex flex-column">
+                            <input class="py-2 px-4 border rounded mb-3" type = "email" placeholder = "* Email address" required>
+                            <span>This will be your username</span>
+                        </div>
+
+                        <div class="d-flex flex-column">
+                            <input class="py-2 px-4 border rounded mb-3" type = "password" placeholder = "* Password" required>
+                            <span>Create a password 8 to 25 characters long that includes at least 1 uppercase and 1 lowercase letter, 1 number and 1 special character like an exclamation point or asterisk.</span>
+                        </div>
+                    </div>
+
+                    <div class = "mb-3 mt-3">
+                        <a href="#"><p>Already have a Starbucks gift card?</p></a>
+                    </div>
+
+                    <p class = "text-uppercase">Collect more stars & earn rewards</p>
+                    <span>Email is a great way to know about offers and what’s new from Starbucks.</span>
+                    <div>
+                        <input type = "checkbox">
+                        <span>Yes, I’d like email from Starbucks</span>
+                    </div>
+
+                    <div>
+                        <span>Know about initiatives, announcements and product offers.</span>
+                    </div>
+
+                    <p class = "tems_of_use">TERMS OF USE</p>
+                    <div>
+                        <input type = "checkbox">
+                        <span>I agree to the Starbucks® Rewards Terms and the Starbucks Card Terms</span>
+                    </div>
+
+                    <div class="d-flex justify-content-end">
+                        <input
+                                class="rounded-pill border px-4 py-2 text-white bg-primary"
+                                type="Submit"
+                                value="Create account"
+                        />
+                    </div>
+                </div>
             </div>
         </form>
         </main>
     
         <hr>
-    
-        <footer>
-            <div class = "footer_store">
-                <div class = "footer_store__links">
-                    <a class = "footer_store__link" href = "#">Find a Store</a>
-                </div>
-        
-                <div>
-                    <ul>
-                        <li>Web Accessibility</li>
-                        <li>Privacy Policy</li>
-                        <li>Terms of Use</li>
-                        <li>Cookie Preferences</li>
-                    </ul>
-                </div>
+
+    <footer class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-5 d-flex flex-row justify justify-content-between">
+                <a class="" href="#">Find a Store</a>
+                <ul class="navbar-nav mt-3 mb-3 me-4 lh-lg">
+                    <li>Web Accessibility</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Use</li>
+                    <li>Cookie Preferences</li>
+                </ul>
             </div>
-    
-            <div>
-                <p>
-                    <small>© 2022 Starbucks</small>
-                </p>
-            </div>
-        </footer>
+        </div>
+
+        <div class="container">
+            <p>
+                <small>© 2022 Starbucks</small>
+            </p>
+        </div>
+    </footer>
         </div>
     
 </body>

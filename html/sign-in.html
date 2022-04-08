@@ -15,88 +15,100 @@
     <title>Starbucks Coffee Company</title>
   </head>
   <body>
-      <header class="shadow-sm py-3">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container">
-            <a class="navbar-brand" href="../index.html"
-              ><img
-                class="img-fluid"
-                width="50"
-                height="50"
-                src="../media/starbucks-logo.png"
-                alt="Starbucks logo"
-            /></a>
-            <div class="d-flex flex-row w-100 justify-content-between"></div>
-          </div>
-        </nav>
-      </header>
+    <header class="shadow-sm py-3">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"
+            ><img
+              class="img-fluid"
+              width="50"
+              height="50"
+              src="../media/starbucks-logo.png"
+              alt="Starbucks logo"
+          /></a>
+          <div class="d-flex flex-row w-100 justify-content-between"></div>
+        </div>
+      </nav>
+    </header>
 
-      <main class="container">
-        <h1 class="text-center fs-3 fw-bolder py-5">Sign in or create an account</h1>
+    <main class="">
+      <h1 class="text-center fs-3 fw-bolder py-5">
+        Sign in or create an account
+      </h1>
 
-          <form class="shadow w-50 m-auto p-4 rounded shadow-sm" action="">
+      <form class="container" action="">
+        <div class="row justify-content-center">
+          <div class="col-md-5 col-sm-12 shadow w-sm-100 p-4 rounded shadow-sm">
             <p>* indicates required field</p>
             <div class="d-flex flex-column">
               <input
-                      class=""
-                      type="text"
-                      placeholder="* User name or email address"
+                class="py-2 px-4 border rounded mb-3"
+                type="text"
+                placeholder="* User name or email address"
               />
               <input
-                      class=""
-                      type="text"
-                      placeholder="* Password"
+                class="py-2 px-4 border rounded"
+                type="text"
+                placeholder="* Password"
               />
             </div>
 
-            <div class="">
+            <div class="mt-4">
               <input type="checkbox" />
               <span>Keep me signed in. <a href="#">Details</a></span>
             </div>
 
-            <div class="d-flex flex-column">
-              <a href="#">Forgot your username?</a>
+            <div class="d-flex flex-column mt-3">
+              <a class="py-2" href="#">Forgot your username?</a>
               <a href="#">Forgot your password?</a>
             </div>
 
             <div class="d-flex justify-content-end">
-              <input class="" type="submit" />
+              <input
+                class="rounded-pill border px-4 py-2 text-white bg-primary"
+                type="submit"
+              />
             </div>
-          </form>
-
-        <section class="">
-          <h2 class="">JOIN STARBUCKS® REWARDS</h2>
-          <p class="">
-            Join Starbucks® Rewards to earn free food and drinks, get free
-            refills, pay and order with your phone, and more.
-          </p>
-          <a class="" href="create-account.html">Join now</a>
-        </section>
-      </main>
-
-      <hr />
-
-      <footer>
-        <div class="">
-          <div class="">
-            <a class="" href="#">Find a Store</a>
-          </div>
-
-          <div>
-            <ul>
-              <li>Web Accessibility</li>
-              <li>Privacy Policy</li>
-              <li>Terms of Use</li>
-              <li>Cookie Preferences</li>
-            </ul>
           </div>
         </div>
+      </form>
 
-        <div>
-          <p>
-            <small>© 2022 Starbucks</small>
-          </p>
+      <section class="container">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-5 col-sm-12 col-sm-4 mt-4 mb-5 p-5 bg-light text-center rounded"
+          >
+            <h2 class="fs-6 text-uppercase">Join starbucks® rewards</h2>
+            <p class="">
+              Join Starbucks® Rewards to earn free food and drinks, get free
+              refills, pay and order with your phone, and more.
+            </p>
+            <a class="" href="create-account.html">Join now</a>
+          </div>
         </div>
-      </footer>
+      </section>
+    </main>
+
+    <hr />
+
+    <footer class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-5 d-flex flex-row justify justify-content-between">
+          <a class="" href="#">Find a Store</a>
+          <ul class="navbar-nav mt-3 mb-3 me-4 lh-lg">
+            <li>Web Accessibility</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Use</li>
+            <li>Cookie Preferences</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>
+          <small>© 2022 Starbucks</small>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
