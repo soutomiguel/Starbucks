@@ -1,1 +1,9 @@
+$main-green: #1E3932;
+$light-green: #D4E9E2;
+$txt-gray: #6B6B6B;
+
+/* Modifying native bootstrap vars */
+$primary: $main-green;
+$secondary: $light-green;
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
