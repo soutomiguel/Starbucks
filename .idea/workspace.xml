@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f3cc887-ceb4-459b-b05f-51cc7766a804" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3f3cc887-ceb4-459b-b05f-51cc7766a804" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Workspace/React" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Miguel\Desktop\Coderhouse\Web development\Starbucks\node_modules\prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -41,6 +39,7 @@
       <workItem from="1649889000496" duration="38000" />
       <workItem from="1650580954921" duration="1241000" />
       <workItem from="1651010127722" duration="609000" />
+      <workItem from="1651529088966" duration="661000" />
     </task>
     <servers />
   </component>
